@@ -1,0 +1,81 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "5c22cdb2-15bd-402e-93ca-ea2ac89329a0",
+  "location" : "file:///Users/balalaika/IdeaProjects/flink-iceberg-question/catalog/db/flink_sink_append",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1709100753149,
+  "last-column-id" : 2,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "identifier-field-ids" : [ 1 ],
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : true,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "some_value",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 3322681567457815922,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 3322681567457815922,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 3322681567457815922,
+    "timestamp-ms" : 1709100753149,
+    "summary" : {
+      "operation" : "overwrite",
+      "flink.operator-id" : "e883208d19e3c34f8aaf2a3168a63337",
+      "flink.job-id" : "7d96854f3807d08f32d28f2d6de70db6",
+      "flink.max-committed-checkpoint-id" : "9223372036854775807",
+      "added-data-files" : "1",
+      "added-position-delete-files" : "1",
+      "added-delete-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "2395",
+      "added-position-deletes" : "1",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "2395",
+      "total-data-files" : "1",
+      "total-delete-files" : "1",
+      "total-position-deletes" : "1",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "file:/Users/balalaika/IdeaProjects/flink-iceberg-question/catalog/db/flink_sink_append/metadata/snap-3322681567457815922-1-de363ee8-d164-4f06-bfe0-fa7b6b66c627.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1709100753149,
+    "snapshot-id" : 3322681567457815922
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1709100747927,
+    "metadata-file" : "file:/Users/balalaika/IdeaProjects/flink-iceberg-question/catalog/db/flink_sink_append/metadata/v1.metadata.json"
+  } ]
+}
