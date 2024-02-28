@@ -17,7 +17,7 @@ import java.io.File;
 import java.util.List;
 
 /**
- * Appending to Iceberg V2 Table with FlinkSink.
+ * Upserting to Iceberg V2 Table with FlinkSink.
  */
 public class FlinkSinkUpsert {
 
